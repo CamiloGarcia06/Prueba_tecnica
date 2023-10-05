@@ -15,14 +15,14 @@
     ],
     'assets': {
         'point_of_sale.assets': [
+            'technical_tests/static/src/js/Screens/PaymentScreen/PaymentScreen.js',
             'technical_tests/static/src/js/models.js',
-            'technical_tests/static/src/js/PaymentScreen.js',
-            'technical_tests/static/src/js/TestPopup.js',
             ],
 
         'web.assets_qweb': [
             'technical_tests/static/src/xml/Screens/ClientListScreen/ClientDetailsEdit.xml',
             'technical_tests/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml',
+            'technical_tests/static/src/xml/Screens/Popups/ProductInfoPopup.xml',
         ],
     },
     'installable': True,

@@ -1,7 +1,9 @@
-odoo.define(technical_test.models), function (require) {
-    "use strict";
+odoo.define('technical_test.Models', function (require) {
+  "use strict";
 
-    var models = require("point_of_sale.models");
+  var models = require('point_of_sale.models');
+  var core = require('web.core');
 
-    models.load_fields("res_partner", ["age"]);
-  };
+  models.load_fields("res_partner", ["age"]);
+
+});
